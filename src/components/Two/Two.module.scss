@@ -1,0 +1,39 @@
+.main {
+    @media (max-width: 600px) {
+        z-index: 1;
+    }
+    .center {
+        display: flex;
+        flex-direction: row;
+        background-color: #f0f0f4;
+        justify-content: space-between;
+        &_one {
+            height: 53px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover {
+                border-bottom: 3px solid blue;
+                font-weight: bold;
+            }
+            @media (max-width: 600px) {
+                display: none;
+            }
+        }
+        &_two {
+            height: 53px;
+            font-size: 20px;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            &:hover {
+                border-bottom: 3px solid blue;
+            }
+            @media (max-width: 600px) {
+                display: flex;
+            }
+        }
+    }
+}

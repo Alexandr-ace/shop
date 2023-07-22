@@ -1,13 +1,13 @@
 .main {
-    background-color: white;
     display: none;
     @media (max-width: 600px) {
         position: absolute;
         width: 100%;
         z-index: 9;
-        display: block;
+        display: none;
     }
     .center {
+        background-color: white;
         margin-top: 10px;
         height: 1170px;
         display: none;
