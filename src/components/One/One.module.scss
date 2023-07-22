@@ -1,0 +1,86 @@
+.main {
+    // position: relative;
+    z-index: 1;
+    @media (max-width: 600px) {
+    }
+    .center {
+        height: 79px;
+        display: flex;
+        max-width: 1280px;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: space-between;
+        @media (max-width: 600px) {
+            width: auto;
+        }
+        &_ones {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            @media (max-width: 600px) {
+                display: flex;
+            }
+        }
+        &_one {
+            max-width: 454px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+            @media (max-width: 600px) {
+                display: none;
+            }
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        &_twos {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            @media (max-width: 600px) {
+                display: flex;
+            }
+        }
+        &_two {
+            @media (max-width: 600px) {
+                display: none;
+            }
+        }
+        &_three {
+            max-width: 240px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            @media (max-width: 600px) {
+                display: none;
+            }
+            img {
+                margin-bottom: 20px;
+                align-self: center;
+            }
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        &_four {
+            max-width: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-self: center;
+            }
+        }
+    }
+}
