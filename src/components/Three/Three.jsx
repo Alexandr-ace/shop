@@ -17,6 +17,7 @@ const Three = () => {
             <div className={styles.center_left_center_img}></div>
             <div className={styles.center_left_center_img}></div>
             <div className={styles.center_left_center_img}></div>
+            <div className={styles.center_left_center_img}></div>
           </div>
         </div>
         <div className={styles.center_right}>
