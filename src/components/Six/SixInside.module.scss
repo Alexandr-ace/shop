@@ -1,0 +1,18 @@
+.center {
+    // position: relative;
+    z-index: 1;
+    margin-top: 25px;
+    width: 370px;
+    height: 129px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #cdcdcd;
+    @media (max-width: 600px) {
+    }
+    &_left {
+        display: flex;
+        flex-direction: column;
+    }
+    &_right {
+    }
+}
