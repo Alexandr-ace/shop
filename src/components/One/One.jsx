@@ -1,5 +1,9 @@
 import React from "react";
 import styles from "./One.module.scss";
+import stylesUp from "../Up/Up.module.scss";
+
+import { useDispatch } from "react-redux";
+import { addStyle } from "../../store/styleSlice";
 
 const One = () => {
   const logo1 = require("./img/img1.png");
@@ -9,10 +13,14 @@ const One = () => {
   const logo5 = require("./img/img5.png");
   const logo6 = require("./img/img6.png");
   const logo7 = require("./img/img7.png");
+  const dispatch = useDispatch();
+  const addUp = () => {
+    dispatch(addStyle(stylesUp.mains));
+  };
   return (
     <div className={styles.main}>
       <div className={styles.center}>
-        <div className={styles.center_ones}>
+        <div onClick={addUp} className={styles.center_ones}>
           <img src={logo6} alt="" />
         </div>
         <div className={styles.center_one}>

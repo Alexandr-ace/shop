@@ -96,3 +96,12 @@
         }
     }
 }
+.mains {
+    display: none;
+    @media (max-width: 600px) {
+        position: absolute;
+        width: 100%;
+        z-index: 9;
+        display: flex !important;
+    }
+}
