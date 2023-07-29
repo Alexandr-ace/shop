@@ -17,13 +17,13 @@ const Up = () => {
     <div className={`${styles.main} ${style}`}>
       <div className={styles.center}>
         {stableOne.map((item) => (
-          <div className={styles.center_one}>
+          <div key={item.text} className={styles.center_one}>
             <img src={item.img} alt="" />
             <div>{item.text}</div>
           </div>
         ))}
         {stableTwo.map((item) => (
-          <div className={styles.center_two}>
+          <div key={item.text} className={styles.center_two}>
             <div>{item.text}</div>
           </div>
         ))}
