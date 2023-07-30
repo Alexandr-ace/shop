@@ -1,16 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
+import stylesUp from "../components/Up/Up.module.scss";
 
 const styleSlice = createSlice({
   name: "style",
   initialState: {
-    style: "style",
+    style: stylesUp.main,
   },
   reducers: {
     addStyle(state, action) {
       state.style = action.payload;
     },
     removeStyle(state) {
-      state.style = "style";
+      state.style = stylesUp.main;
     },
   },
 });

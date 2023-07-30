@@ -14,7 +14,7 @@ const Up = () => {
   };
   const style = useSelector((state) => state.style.style);
   return (
-    <div className={`${styles.main} ${style}`}>
+    <div className={`${style}`}>
       <div className={styles.center}>
         {stableOne.map((item) => (
           <div key={item.text} className={styles.center_one}>

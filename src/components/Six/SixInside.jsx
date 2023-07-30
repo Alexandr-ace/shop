@@ -1,20 +1,19 @@
 import React from "react";
 import styles from "./SixInside.module.scss";
 const logo1 = require("./img/img1.png");
-const logo2 = require("./img/img2.png");
 
-const SixInside = () => {
+const SixInside = ({ text, img }) => {
   return (
     <div className={styles.center}>
       <div className={styles.center_left}>
-        <div>Квадрациклы</div>
-        <div>
+        <div className={styles.center_left_machine}>{text}</div>
+        <div className={styles.center_left_option}>
           <div>Подробее</div>
           <img src={logo1} alt="" />
         </div>
       </div>
       <div className={styles.center_right}>
-        <img src={logo2} alt="" />
+        <img src={img} alt="" />
       </div>
     </div>
   );

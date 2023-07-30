@@ -1,17 +1,24 @@
 .main {
-    // position: relative;
-    z-index: 1;
-    margin-top: 25px;
+    margin-top: 80px;
     @media (max-width: 600px) {
     }
     .center {
         margin: 0 auto;
-        height: 50px;
-        max-width: 1280px;
+        max-width: 1170px;
         width: 100%;
-        font-size: 20px;
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 30px;
+        @media (max-width: 900px) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        @media (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     }
 }
-
