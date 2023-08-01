@@ -7,6 +7,7 @@ import Six from "./components/Six/Six";
 import Three from "./components/Three/Three";
 import Two from "./components/Two/Two";
 import Up from "./components/Up/Up";
+import Eight from "./components/Eight/Eight";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Five />
       <Six />
       <Seven />
+      <Eight />
     </div>
   );
 }
