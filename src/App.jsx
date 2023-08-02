@@ -8,6 +8,7 @@ import Three from "./components/Three/Three";
 import Two from "./components/Two/Two";
 import Up from "./components/Up/Up";
 import Eight from "./components/Eight/Eight";
+import EightBlock from "./components/Eight/EightBlock";
 
 function App() {
   return (
