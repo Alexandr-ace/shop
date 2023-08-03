@@ -8,7 +8,8 @@ import Three from "./components/Three/Three";
 import Two from "./components/Two/Two";
 import Up from "./components/Up/Up";
 import Eight from "./components/Eight/Eight";
-import EightBlock from "./components/Eight/EightBlock";
+import Nine from "./components/Nine/Nine";
+import Ten from "./components/Ten/Ten";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Six />
       <Seven />
       <Eight />
+      <Nine />
+      <Ten />
     </div>
   );
 }
