@@ -10,9 +10,9 @@ const Ten = () => {
           <img src={logo1} alt="" />
         </div>
         <div className={styles.center_center}>
-          <div className={styles.center_center_wordF}>СКИДКИ</div>
-          <div className={styles.center_center_wordS}>на все запчасти</div>
-          <div className={styles.center_center_wordT}> до 70%</div>
+          <div className={styles.center_center_word}>
+            СКИДКИ <br /> на все запчасти <br /> до 70%
+          </div>
         </div>
         <div className={styles.center_right}>Посмотреть всё</div>
       </div>

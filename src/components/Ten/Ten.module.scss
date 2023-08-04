@@ -1,5 +1,8 @@
 .main {
     margin-top: 86px;
+    @media (max-width: 600px) {
+        display: none;
+    }
     .center {
         max-width: 1280px;
         width: 100%;
@@ -15,15 +18,35 @@
             font-size: 36px;
             color: white;
             font-weight: bold;
+            @media (max-width: 800px) {
+                font-size: 20px;
+                line-height: 20px;
+            }
+            &_word {
+                max-width: 308px;
+                width: 100%;
+                height: 108px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
         &_right {
-            width: 284px;
+            max-width: 284px;
+            width: 100%;
             height: 57px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 24px;
             background-color: #f0f0f4;
+            @media (max-width: 800px) {
+                font-size: 12px;
+                line-height: 12px;
+                max-width: 142px;
+                width: 100%;
+                height: 28px;
+            }
         }
     }
 }
