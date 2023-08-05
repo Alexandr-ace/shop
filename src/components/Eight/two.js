@@ -1,9 +1,8 @@
 const logo1 = require("./img/img4.png");
 const logo2 = require("./img/img2.png");
 const logo3 = require("./img/img5.png");
-const logo4 = require("./img/img6.png");
 
-let stableOne = [
+let stableOneS = [
   {
     sale: "",
     img: logo1,
@@ -22,16 +21,9 @@ let stableOne = [
     sale: "",
     img: logo3,
     text: "BRP Audio-Premium System",
-    prise: 6800,
+    prise: 68000,
     availabil: true,
-  },
-  {
-    sale: "SALE",
-    img: logo4,
-    text: "Спасательное снаряжение",
-    prise: 7600,
-    availabil: false,
   },
 ];
 
-export default stableOne;
+export default stableOneS;

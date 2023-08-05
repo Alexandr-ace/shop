@@ -40,7 +40,7 @@ const EightBlock = ({ sale, img, text, prise, availabil }) => {
           <div className={styles.center_middle}>
             <div className={styles.center_middle_inside}>Посмотреть товар</div>
             <div className={styles.center_middle_img}>
-              <img src={logo2} alt="" />
+              <img src={img} alt="" />
             </div>
             <div className={styles.center_middle_namen}>{text}</div>
             <div className={styles.center_middle_not}>нет в наличии</div>

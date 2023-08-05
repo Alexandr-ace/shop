@@ -12,6 +12,7 @@ import Nine from "./components/Nine/Nine";
 import Ten from "./components/Ten/Ten";
 import TenS from "./components/Ten/TenS";
 import CaruselInside from "./components/Carusel/CaruselInside";
+import EightS from "./components/Eight/EightS";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Six />
       <Seven />
       <Eight />
+      <EightS />
       <Nine />
       <Ten />
       <TenS />
