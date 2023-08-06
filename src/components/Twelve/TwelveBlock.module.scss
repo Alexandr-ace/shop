@@ -1,0 +1,109 @@
+.main {
+    .center {
+        max-width: 270px;
+        width: 100%;
+        height: 418px;
+        display: flex;
+        flex-direction: column;
+        &_up {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &_left {
+                width: 63px;
+                height: 25px;
+                background-color: #1c62cd;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+
+                &:empty {
+                    background-color: white;
+                }
+            }
+            &_right {
+                margin-top: 16px;
+                margin-right: 18px;
+            }
+        }
+        &_middle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+
+            &_img {
+                margin-top: 14px;
+            }
+            &_name {
+                margin-top: 14px;
+                width: 230px;
+                height: 44px;
+                text-align: center;
+                font-size: 18px;
+            }
+            &_namen {
+                margin-top: 14px;
+                width: 230px;
+                height: 44px;
+                text-align: center;
+                font-size: 18px;
+            }
+            &_not {
+                margin-top: 7px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            &_input {
+                font-size: 16px;
+                color: #1c62cd;
+                margin-top: 13px;
+                border-bottom: 1px solid #1c62cd;
+            }
+            &_price {
+                margin-top: 23px;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            &_inside {
+                position: absolute;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                width: 230px;
+                height: 63px;
+                top: 70px;
+                background-color: white;
+            }
+        }
+        &_bottom {
+            display: flex;
+            justify-content: end;
+            &_img {
+                border-radius: 10px 0 0 0;
+                width: 60px;
+                height: 40px;
+                background-color: #1c62cd;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+.center_middle:hover .center_middle_name {
+    color: #1c62cd;
+}
+.center_middle:hover .center_middle_price {
+    color: #1c62cd;
+}
+.center_middle:hover .center_middle_inside {
+    display: flex;
+    opacity: 0.7;
+    box-shadow:
+        11px -2px 8px rgba(0, 0, 0, 0.15),
+        -9px -3px 21px rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+}

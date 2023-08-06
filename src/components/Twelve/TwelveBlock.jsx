@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./EightBlock.module.scss";
+import styles from "./TwelveBlock.module.scss";
 
-const EightBlock = ({ sale, img, text, prise, availabil }) => {
+const TwelveBlock = ({ sale, img, text, prise, availabil }) => {
   const logo1 = require("./img/img1.png");
   const logo3 = require("./img/img3.png");
   return (
@@ -53,4 +53,4 @@ const EightBlock = ({ sale, img, text, prise, availabil }) => {
   );
 };
 
-export default EightBlock;
+export default TwelveBlock;

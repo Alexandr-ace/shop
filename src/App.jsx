@@ -11,8 +11,11 @@ import Eight from "./components/Eight/Eight";
 import Nine from "./components/Nine/Nine";
 import Ten from "./components/Ten/Ten";
 import TenS from "./components/Ten/TenS";
-import CaruselInside from "./components/Carusel/CaruselInside";
 import EightS from "./components/Eight/EightS";
+import Eleven from "./components/Eleven/Eleven";
+import Twelve from "./components/Twelve/Twelve";
+import TwelveS from "./components/Twelve/TwelveS";
+import Thirteen from "./components/Thirteen/Thirteen";
 
 function App() {
   return (
@@ -30,7 +33,10 @@ function App() {
       <Nine />
       <Ten />
       <TenS />
-      <CaruselInside />
+      <Eleven />
+      <Twelve />
+      <TwelveS />
+      <Thirteen />
     </div>
   );
 }

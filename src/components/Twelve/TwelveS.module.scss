@@ -1,0 +1,26 @@
+.main {
+    margin-top: 21px;
+    display: none;
+    @media (max-width: 600px) {
+        display: block;
+    }
+    .center {
+        margin: 0 auto;
+        max-width: 690px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        &_slider {
+            display: flex;
+            overflow: hidden;
+            margin: 0 auto;
+            max-width: 230px;
+            width: 100%;
+            &_text {
+                display: flex;
+                max-width: 690px;
+                width: 100%;
+            }
+        }
+    }
+}
