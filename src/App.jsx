@@ -16,6 +16,7 @@ import Eleven from "./components/Eleven/Eleven";
 import Twelve from "./components/Twelve/Twelve";
 import TwelveS from "./components/Twelve/TwelveS";
 import Thirteen from "./components/Thirteen/Thirteen";
+import ThirteenS from "./components/Thirteen/ThirteenS";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <Twelve />
       <TwelveS />
       <Thirteen />
+      <ThirteenS />
     </div>
   );
 }
